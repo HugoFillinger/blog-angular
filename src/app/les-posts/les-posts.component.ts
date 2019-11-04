@@ -12,7 +12,9 @@ export class LesPostsComponent implements OnInit {
 @Input() postContenu: string;
 @Input() postAvis: number;
 @Input() createdDate: Date;
-
+  ngOnInit(){
+    console.log('Le composant a fini son initialisation');
+  }
 isAuth = false;
   lastUpdate = new Date();
   constructor() {

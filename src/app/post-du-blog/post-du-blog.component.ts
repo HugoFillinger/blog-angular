@@ -35,6 +35,10 @@ export class PostDuBlogComponent implements OnInit {
     }
   ];
 
+  ngOnInit(){
+    console.log('Le composant a fini son initialisation');
+  }
+
 
 
   constructor() {
